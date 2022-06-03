@@ -20,3 +20,12 @@ I like to study. I'm curious about learning something new. I want to upgrade my 
 * Git
 * Figma
 * Adobe Photoshop, Lightroom
+
+***
+### Code example:
+
+```
+function multiply(a, b) { 
+  return a * b 
+}
+```
