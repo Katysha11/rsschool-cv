@@ -29,3 +29,15 @@ function multiply(a, b) {
   return a * b 
 }
 ```
+
+***
+### Education and courses
+
+*  Francisk Skorina Gomel State University (Automated systems of information processing)
+* SENLA (course «Functional software testing»)
+* RS school (course «JavaScript/Front-end. Stage 0») - in progress
+
+***
+### English
+
+My level - A2+
