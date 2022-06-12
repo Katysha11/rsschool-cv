@@ -1,3 +1,152 @@
+@font-face {
+  font-family: Roboto;
+  src: url("./assets/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("./assets/fonts/Roboto-Medium.ttf");
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    color:#CDD6FE;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color:#000000;
+}
+
+.header {
+  background-color: #ffe100;
+}
+
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0px;
+  line-height: 50px;
+  transition: .3s;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.main {
+  margin-bottom: auto;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} 
+
+.section {
+  width: 100%;
+  padding-bottom: 35px;
+  border-bottom: 10px solid #ffe100;
+}
+
+.section-title {
+  font-weight: 400;
+}
+
+.section-list {
+  padding:0;
+
+}
+
+.section-item {
+  color: #000000;
+  list-style: none;
+  line-height: 60px;
+}
+
+.section-item  a {
+  color: #008001;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.section-item a:hover {
+  color: #000000;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 10px solid #ffe100;
+}
+
+.main-title {
+  padding: 100px;
+  text-transform: uppercase;
+  padding-left:0;
+}
+
+.section-english {
+  padding: 0;
+  border-bottom: 0;
+} 
+
+.pre {
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  padding: 30px;
+  background-color: #ffe100;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer-link {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+span {
+  color: #008001;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
   }
+}
