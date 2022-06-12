@@ -33,7 +33,7 @@ function multiply(a, b) {
 ***
 ### Education and courses
 
-*  Francisk Skorina Gomel State University (Automated systems of information processing)
+* Francisk Skorina Gomel State University (Automated systems of information processing)
 * SENLA (course «Functional software testing»)
 * RS school (course «JavaScript/Front-end. Stage 0») - in progress
 
